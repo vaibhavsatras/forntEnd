@@ -20,7 +20,7 @@ function Signup() {
     setEmail("")
     setPassword("")
 
-    fetch('http://localhost:5000/user/addUser',{
+    fetch('https://mern-api-yy7j.vercel.app/user/addUser',{
 
         method: 'POST',
         headers:{

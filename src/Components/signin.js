@@ -14,7 +14,7 @@ function Signin() {
       email,password
     }
     
-    fetch('http://localhost:5000/user/signin',{
+    fetch('https://mern-api-yy7j.vercel.app/user/signin',{
       method: 'POST',
       headers :{
         'Content-Type':'application/json'
